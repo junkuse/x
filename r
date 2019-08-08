@@ -323,6 +323,20 @@ By default the read.csv() function gives the output as a data frame. This can be
 
 data <- read.csv("input.csv")
 
+
+
+----------------------
+
+Function	What It Does
+abs(x)	Takes the absolute value of x
+log(x,base=y)	Takes the logarithm of x with base y; if base
+is not specified, returns the natural logarithm
+exp(x)	Returns the exponential of x
+sqrt(x)	Returns the square root of x
+factorial(x)	Returns the factorial of x (x!)
+choose(x,y)	Returns the number of possible combinations when drawing
+y elements at a time from x possibilities
+
 print(is.data.frame(data))
 print(ncol(data))
 print(nrow(data))
